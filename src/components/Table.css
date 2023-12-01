@@ -1,0 +1,17 @@
+.column-title {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+.selected-row {
+    background-color: #ccc;
+}
+.delete-selected-button {
+    margin-top: 10px;
+}
+.search-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+.search-container input {
+    flex: 1;
+}
