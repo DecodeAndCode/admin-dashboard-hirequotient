@@ -72,6 +72,11 @@ const TableRow = ({
                     user.role
                 )}
             </td>
+            <div style={{
+                display: "flex",
+                justifyContent: "center",
+                textAlign: "center"
+            }}>
             <td>
                 {editableUserId === user.id ? (
                     <button onClick={handleSaveLocal}>Save</button>
@@ -83,6 +88,7 @@ const TableRow = ({
                     </>
                 )}
             </td>
+            </div>
         </tr>
     );
 };

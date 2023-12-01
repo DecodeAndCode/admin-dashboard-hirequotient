@@ -6,7 +6,6 @@ function App() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        // textAlign: "center",
         height: "100vh"
     }}>
         <Table/>
